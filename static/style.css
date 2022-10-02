@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+*{
+    padding: 0px;
+    margin :0px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color:rgb(238, 194, 201);
+    padding: 10px 4px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 1.2rem;
+    position: fixed;
+    width: 100%;
+    
+}
+#navbar ul{
+     display: flex;
+     flex-direction: row;
+    
+     align-items: center;
+}
+#logo{
+    display: flex;
+    margin: 0px;
+}
+#logo img{
+    display: block;
+   
+    margin-left: 20px;
+    margin-right: 400px;
+    height: 40px;
+    width: 40px;
+}
+#navbar li{
+    
+    padding-top: 5px;
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 7px 20px;
+    font-size: 25px;
+    color: rgb(219, 38, 68);
+}
+#navbar li a:hover{
+    text-decoration: none;
+    padding: 7px 20px;
+    color:white;
+}
+#introsection{
+     flex-direction: column;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    color:#f80029;
+opacity: 1;
+    display:flex ;
+    opacity: 2;
+    font-size: 35px;
+
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+      padding-top: 10px;
+      height: 650px;
+      background-color: red;
+}
+#introsection div{
+    font-size: 4rem;
+}
+#introsection div.small{
+    font-size: 2rem;
+}
+#missionsection{
+    height: 483px;
+    background-color: rgb(216, 135, 149);
+    font-weight: bold;
+    padding-top: 12px;
+    color: rgb(219, 38, 68);
+    font-size: 2rem;
+    text-align: center;
+}
+.container{
+  
+    border: 2px solid white;
+    margin: 22px 10px;
+    padding: 12px;
+    display: flex;
+    border-radius: 14px;
+    height: 364px;
+    width: 558px;
+}
+.container h2{
+    font-family: 'Mouse Memoirs', sans-serif;
+    display: block;
+    font-size: 1.3rem;
+    margin: 10px auto;
+    text-align: center;
+}
+.container p{
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 1.5rem;
+}
+.master{
+    display: flex;
+    margin: 7px 23px;
+}
+.img-1{
+    display: inherit;
+    height: 250px;
+    width: 150px;
+}
+#promosection{
+    height: 300px;
+    background-color: rgb(238, 194, 201);
+    font-weight: bold;
+    padding-top: 12px; ;
+    color: rgb(219, 38, 68);
+    font-size: 2rem;
+    text-align: center;
+    
+}
+#sponsors{
+    display: flex;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 370px;
+
+}
+#sponsors img{
+    margin: 20px;
+ 
+}
+#footer{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(219, 38, 68);
+    background-color:rgb(255, 159, 250);
+    font-size: 25px;
+}

@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title Alpha Dance Academy
+    block scripts
+    block style 
+      style 
+        include ../static/style.css
+      
+  body
+    nav#navbar
+      ul 
+        div#logo
+          a(href="/") 
+           img(src="/static/logo.png", alt="logo") 
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/contact") Contact Us]
+        li #[a(href="/") Class Info]
+        li #[a(href="/") Service]
+    block content
+         
+  footer#footer 
+        | Copyrights AlphaDAnceAcademy © | ALL rights Reserved 
